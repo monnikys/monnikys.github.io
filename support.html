@@ -62,7 +62,7 @@
 <!-- Navbar End -->
 
 <body>
-    <form action="https://formsubmit.co/gatocaffeinato@gmail.com" method="post">
+    <form id="contactForm" action="https://formsubmit.co/gatocaffeinato@gmail.com" method="post">
         <h1>Contato com o Suporte</h1>
         <input type="text" name="name" placeholder="Seu nome" required />
         <input type="email" name="email" placeholder="Seu e-mail" required />
@@ -70,7 +70,18 @@
         <input type="hidden" name="_template" value="box">
         <button type="submit">Enviar Mensagem</button>
         <input type="hidden" name="_autoresponse" value="Sua mensagem foi recebida, entrarei em contato em breve!">
-        <input type="hidden" name="_next" value="https://github.com/monnikys/monnikys.github.io/thanks.html">
     </form>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Impede o envio do formulário padrão
+
+            // Redireciona o usuário para a página "thanks.html" após 2 segundos
+            setTimeout(function() {
+                window.location.href = "thanks.html";
+            }, 2000); // 2000 milissegundos = 2 segundos
+        });
+    </script>
 </body>
 </html>
+
