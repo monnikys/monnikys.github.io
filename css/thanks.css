@@ -9,7 +9,7 @@
 
 body {
     height: 96vh;
-    background: #000000, #000000;
+    background: radial-gradient(#000000, #000000);
     padding: 15px;
 }
 
@@ -17,7 +17,7 @@ main, form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #191C24;
+    background-color: #ac0f0f;
     min-width: 420px;
     max-width: 700px;
     margin: 100px auto;
