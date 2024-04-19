@@ -18,16 +18,8 @@ html {
 }
 
 body {
-  background: rgba(30,29,31,1);
-background: -moz-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgb(0, 0, 0) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(30,29,31,1)), color-stop(100%, rgb(0, 0, 0)));
-background: -webkit-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgb(0, 0, 0) 100%);
-background: -o-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgb(0, 0, 0) 100%);
-background: -ms-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgb(0, 0, 0) 100%);
-background: linear-gradient(135deg, rgba(30,29,31,1) 0%, rgb(0, 0, 0) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1d1f', endColorstr='#df405a', GradientType=1 );
+background: #000000;
 }
-
 /*--------------------
 Text
 ---------------------*/
@@ -387,7 +379,7 @@ Credits
   width: 100%;
   position: absolute;
   bottom: 4px;
-  font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family:'Quicksand', sans-serif;
   font-size: 12px;
   color: rgba(255,255,255,0.1);
   text-align: center;
