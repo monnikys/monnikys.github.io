@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# gatocaffeinato
-=======
 # GatoCaffeinato - O Café dos Gatos ☕🐾
 
 Bem-vindo ao **GatoCaffeinato**, um site temático que combina duas paixões: **gatos** e **café**. Estamos em construção e ainda ajustando alguns detalhes, mas já temos bastante conteúdo e funcionalidades prontas para você explorar. Fique ligado, pois em breve nosso site estará ainda mais interativo e com novas opções de serviços!
