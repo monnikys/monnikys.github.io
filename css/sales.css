@@ -1,8 +1,8 @@
-
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700';
 
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, lightgray, lightblue);
+    font-family: 'Quicksand', sans-serif;
+    background: #f1f0f0;
     margin: 20px;
 }
 
@@ -13,7 +13,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #f1f0f0;
     padding: 8px;
     text-align: left;
 }
@@ -49,7 +49,7 @@ canvas {
   #total-sales {
         font-size: 20px;
         font-weight: bold;
-        color: #ff6600;
+        color: #ac0f0f;
         background-color: #ffeecc;
         padding: 10px;
         border-radius: 5px;

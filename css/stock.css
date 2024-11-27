@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, lightgray, lightblue);
+    background: #f1f0f0;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -122,7 +122,7 @@ background-color: #c82333; /* Vermelho mais escuro ao passar o mouse */
 #totalStock {
     font-size: 20px;
     font-weight: bold;
-    color: #ff6600;
+    color: #ac0f0f;
     background-color: #ffeecc;
     padding: 10px;
     border-radius: 5px;
@@ -195,7 +195,7 @@ background-color: #c82333; /* Vermelho mais escuro ao passar o mouse */
 /* The alert message box */
 .alert {
     padding: 20px;
-    background-color: #f44336; /* Red */
+    background-color: #fff; /* Red */
     color: white;
     margin-bottom: 15px;
 }

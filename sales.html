@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle de Vendas</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
@@ -13,6 +12,12 @@
     <link rel="stylesheet" type="text/css" href="css/table.css">
     <script src="js/sales.js" defer></script>
     <script src="js/table.js" defer></script>
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.goofgleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -37,9 +42,6 @@
                         <th scope="col">Bairro</th>
                         <th scope="col">Data da Entrega</th>
                         <th scope="col">Tipo</th>
-                        <th scope="col">Massa</th>
-                        <th scope="col">Recheio</th>
-                        <th scope="col">Decoração</th>
                         <th scope="col">Valor Total</th>
                     </tr>
                 </thead>
@@ -96,22 +98,6 @@
             <div class="col-lg-6">
                 <h3>Vendas por Tipo</h3>
                 <canvas id="pie-chart-tipo"></canvas>
-            </div>
-        </div>
-
-        <!-- Dashboard de Barra para Massa -->
-        <div class="row mt-5">
-            <div class="col-lg-6">
-                <h3>Vendas por Massa</h3>
-                <canvas id="bar-chart-massa"></canvas>
-            </div>
-        </div>
-
-        <!-- Dashboard de Barra Sobreposta para Recheio -->
-        <div class="row mt-5">
-            <div class="col-lg-6">
-                <h3>Vendas por Recheio</h3>
-                <canvas id="bar-stacked-chart-recheio"></canvas>
             </div>
         </div>
     </div>
