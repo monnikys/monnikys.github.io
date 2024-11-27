@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700';
 
 body {
@@ -130,4 +131,138 @@ hr {
 
 .termos a {
     color: #fff;
+=======
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700';
+
+body {
+    background: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.area-do-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191C24;
+    width: 43rem;
+    border-radius: 1.5rem;
+}
+
+.introducao {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1.2rem 1.2rem;
+}
+
+.introducao img {
+    position: absolute;
+    right: 1.2rem;
+}
+
+.area-do-formulario .titulo {
+    font-size: 2.8rem;
+}
+
+.area-do-formulario .texto {
+    font-size: 1.0rem;
+    color: #EB1616;
+}
+
+hr {
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: rem;
+    font-size: 1rem;
+}
+
+.formulario .area-nome-completo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.formulario .area-nome-completo .area {
+    width: 20rem;
+}
+
+.formulario .info {
+    background-color: #F5F6F7;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.8rem;
+}
+
+.formulario .label {
+    font-size: 1.1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.formulario .data-de-nascimento {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formulario .data-info {
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.8rem;
+}
+
+.formulario .genero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.area-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.area-botao .btn {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 0.8rem;
+    width: 18rem;
+    height: 4rem;
+    background-color: #ac0f0f;
+    color: white;
+    border-style: none;
+    padding: 0 3rem;
+}
+
+.area-botao .btn:hover {
+    background-color: #ac0f0f;
+}
+
+.termos {
+    padding-top: 0.8rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.termos a {
+    color: #fff;
+>>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07
 }

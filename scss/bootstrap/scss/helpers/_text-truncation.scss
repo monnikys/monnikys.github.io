@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //
 // Text truncation
 //
@@ -6,3 +7,13 @@
 .text-truncate {
   @include text-truncate(); /* Inclui a mixin para truncamento de texto */
 }
+=======
+//
+// Text truncation
+//
+
+/* Aplica estilos de truncamento de texto */
+.text-truncate {
+  @include text-truncate(); /* Inclui a mixin para truncamento de texto */
+}
+>>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07

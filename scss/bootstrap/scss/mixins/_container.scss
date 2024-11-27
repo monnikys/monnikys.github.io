@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // O mixin make-container é usado para criar estilos para um contêiner, com largura de 100% e preenchimento interno nos lados.
 // Ele aceita um parâmetro opcional $gutter, que define o espaçamento interno nos lados do contêiner.
 // Se nenhum valor for fornecido para $gutter, ele usará o valor padrão $container-padding-x.
@@ -10,3 +11,17 @@
   margin-right: auto;
   margin-left: auto;
 }
+=======
+// O mixin make-container é usado para criar estilos para um contêiner, com largura de 100% e preenchimento interno nos lados.
+// Ele aceita um parâmetro opcional $gutter, que define o espaçamento interno nos lados do contêiner.
+// Se nenhum valor for fornecido para $gutter, ele usará o valor padrão $container-padding-x.
+// O valor do espaçamento interno é definido usando variáveis CSS customizadas para fornecer flexibilidade.
+// O comentário "Container mixins" indica que este mixin está relacionado à estilização de contêineres.
+@mixin make-container($gutter: $container-padding-x) {
+  width: 100%;
+  padding-right: var(--#{$variable-prefix}gutter-x, #{$gutter});
+  padding-left: var(--#{$variable-prefix}gutter-x, #{$gutter});
+  margin-right: auto;
+  margin-left: auto;
+}
+>>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07

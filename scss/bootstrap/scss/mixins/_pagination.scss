@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Paginação
 
 // scss-docs-start pagination-mixin
@@ -29,3 +30,36 @@
   }
 }
 // scss-docs-end pagination-mixin
+=======
+// Paginação
+
+// scss-docs-start pagination-mixin
+@mixin pagination-size($padding-y, $padding-x, $font-size, $border-radius) {
+  .page-link {
+    padding: $padding-y $padding-x;
+    @include font-size($font-size);
+  }
+
+  .page-item {
+    @if $pagination-margin-start == (-$pagination-border-width) {
+      &:first-child {
+        .page-link {
+          @include border-start-radius($border-radius);
+        }
+      }
+
+      &:last-child {
+        .page-link {
+          @include border-end-radius($border-radius);
+        }
+      }
+    } @else {
+      // Adiciona border-radius a todos os pageLinks caso tenham margem à esquerda
+      .page-link {
+        @include border-radius($border-radius);
+      }
+    }
+  }
+}
+// scss-docs-end pagination-mixin
+>>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07
