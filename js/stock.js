@@ -4,16 +4,16 @@ let items = [];
 // Função para adicionar um item ao estoque
 function adicionarItem() {
     var productName = document.getElementById('productName').value;
-    var productQuantity = document.getElementById('productQuantity').value;
+    var productQuantity = parseInt(document.getElementById('productQuantity').value);
     var productUnit = document.getElementById('productUnit').value;
-    var productPrice = document.getElementById('productPrice').value;
+    var productPrice = parseFloat(document.getElementById('productPrice').value);
 
     // Adicionar o item ao array
     items.push({
         productName: productName,
         productQuantity: productQuantity,
         productUnit: productUnit,
-        productPrice: parseFloat(productPrice)
+        productPrice: productPrice
     });
 
     // Atualizar a tabela
@@ -25,7 +25,7 @@ function adicionarItem() {
     // Limpar os campos do formulário
     document.getElementById('productName').value = '';
     document.getElementById('productQuantity').value = '';
-    document.getElementById('productUnit').value = 'unidade';
+    document.getElementById('productUnit').value = 'tipo';
     document.getElementById('productPrice').value = '';
 }
 
@@ -35,13 +35,14 @@ function atualizarTabela() {
     tbody.innerHTML = '';
 
     items.forEach((item, index) => {
+        const totalValue = (item.productPrice * item.productQuantity).toFixed(2); // Cálculo do valor total
         const row = tbody.insertRow();
         row.innerHTML = `
             <td>${item.productName}</td>
             <td>${item.productQuantity}</td>
             <td>${item.productUnit}</td>
             <td>${item.productPrice.toFixed(2)}</td>
-            <td>${(item.productPrice / item.productQuantity).toFixed(2)}</td>
+            <td>${totalValue}</td>
             <td>Limite do Estoque</td>
             <td><button onclick="editarItem(${index})" class="btn btn-edit">Editar</button></td>
             <td><button onclick="removerItem(${index})" class="btn btn-remove">Remover</button></td>
@@ -76,7 +77,9 @@ function removerItem(index) {
 
 // Função para atualizar o valor total do estoque
 function atualizarTotalEstoque() {
-    const totalStockValue = items.reduce((total, item) => total + item.productPrice, 0).toFixed(2);
+    const totalStockValue = items
+        .reduce((total, item) => total + (item.productPrice * item.productQuantity), 0) // Soma do valor total dos produtos
+        .toFixed(2);
     document.getElementById('totalStockValue').textContent = totalStockValue;
 }
 

@@ -50,22 +50,42 @@
     <form id="addItemForm">
         <div class="form-group">
             <label for="productName">Produto:</label>
-            <input type="text" id="productName" name="productName" required aria-label="Nome do Produto">
+            <select id="productName" name="productName" aria-label="Tipo do Produto">
+                <option value="Chá Floral">Chá Floral</option>
+                <option value="Matcha Latte">Matcha Latte</option>
+                <option value="Café especial">Café especial</option>
+                <option value="Chá Hojicha">Chá Hojicha</option>
+                <option value="Chá ou infusão cítrica">Chá ou infusão cítrica</option>
+                <option value="Café Kona especial">Café Kona especial</option>
+                <option value="Café aromatizado ou infusão com umeboshi">Café aromatizado ou infusão com umeboshi</option>
+                <option value="Café torrado premium">Café torrado premium</option>
+                <option value="Café suave ou tradicional">Café suave ou tradicional</option>
+                <option value="Café com inspiração temática">Café com inspiração temática</option>
+                <option value="Café artesanal ou especialidade torrada">Café artesanal ou especialidade torrada</option>
+                <option value="Chá da Lua">Chá da Lua</option>
+            </select>
         </div>
         <div class="form-group">
             <label for="productQuantity">Quantidade:</label>
             <input type="number" id="productQuantity" name="productQuantity" required aria-label="Quantidade do Produto">
         </div>
         <div class="form-group">
-            <label for="productUnit">Unidade de Medida:</label>
-            <select id="productUnit" name="productUnit" aria-label="Unidade de Medida do Produto">
-                <option value="unidade">Unidade</option>
-                <option value="kg">Quilograma</option>
-                <option value="g">Grama</option>
-                <option value="ml">Mililitro</option>
-                <option value="l">Litro</option>
+            <label for="productUnit">Tipo do Produto</label>
+            <select id="productUnit" name="productUnit" aria-label="Tipo do Produto">
+                <option value="Sakura Blossom Blend">Sakura Blossom Blend</option>
+                <option value="Matcha Misto">Matcha Misto</option>
+                <option value="Geisha Gold Reserve">Geisha Gold Reserve</option>
+                <option value="Hojicha Haze">Hojicha Haze</option>
+                <option value="Yuzu Citrus Surprise">Yuzu Citrus Surprise</option>
+                <option value="Kabuki Kona Reserve">Kabuki Kona Reserve</option>
+                <option value="Umeboshi Café">Umeboshi Café</option>
+                <option value="Rising Sun Roasters">Rising Sun Roasters</option>
+                <option value="Nadeshiko Coffee">Nadeshiko Coffee</option>
+                <option value="Kitsune Kafe">Kitsune Kafe</option>
+                <option value="Shizuku Coffee Roastery">Shizuku Coffee Roastery</option>
+                <option value="tsuki-no-kissa">Tsuki no Kissa</option>
             </select>
-        </div>
+        </div>        
         <div class="form-group">
             <label for="productPrice">Preço do Produto:</label>
             <input type="number" id="productPrice" name="productPrice" step="0.01" required aria-label="Preço do Produto">
@@ -78,9 +98,9 @@
             <tr>
                 <th>Produto</th>
                 <th>Quantidade</th>
-                <th>Unidade</th>
+                <th>Tipo do Produto</th>
                 <th>Preço do Produto</th>
-                <th>Preço (valor/quantidade)</th>
+                <th>Preço total</th>
                 <th>Limite do Estoque</th>
                 <th>Editar</th>
                 <th>Remover</th>
@@ -91,7 +111,7 @@
             </tbody>
         </table>
     </div>
-    <div id="totalStock">Total do Estoque: R$ <span id="totalStockValue">0.00</span></div>
+    <div id="totalStock">Total Vendido: R$ <span id="totalStockValue">0.00</span></div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
