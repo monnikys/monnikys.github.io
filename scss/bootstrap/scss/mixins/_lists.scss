@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Listas
 
 // Unstyled mantém os itens da lista como elementos de bloco, apenas remove o preenchimento padrão do navegador e o estilo de lista
@@ -6,12 +5,3 @@
   padding-left: 0;
   list-style: none;
 }
-=======
-// Listas
-
-// Unstyled mantém os itens da lista como elementos de bloco, apenas remove o preenchimento padrão do navegador e o estilo de lista
-@mixin list-unstyled {
-  padding-left: 0;
-  list-style: none;
-}
->>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07

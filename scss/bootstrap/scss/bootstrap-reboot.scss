@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Importa as funções necessárias
 @import "functions";
 
@@ -14,20 +13,3 @@ $font-family-code: $font-family-monospace; // Desabilita temporariamente o linte
 
 // Importa o reinício (reboot) do estilo, geralmente usado para resetar estilos padrão do navegador
 @import "reboot";
-=======
-// Importa as funções necessárias
-@import "functions";
-
-// Importa as variáveis necessárias
-@import "variables";
-
-// Evita o uso de propriedades personalizadas, já que não as adicionamos ao `:root` no reinício
-$font-family-base: $font-family-sans-serif; // Desabilita temporariamente o linter para esta linha
-$font-family-code: $font-family-monospace; // Desabilita temporariamente o linter para esta linha
-
-// Importa os mixins necessários
-@import "mixins";
-
-// Importa o reinício (reboot) do estilo, geralmente usado para resetar estilos padrão do navegador
-@import "reboot";
->>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07

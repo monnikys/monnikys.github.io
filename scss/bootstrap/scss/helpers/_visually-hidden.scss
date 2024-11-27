@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //
 // Visually hidden
 //
@@ -8,14 +7,3 @@
 .visually-hidden-focusable:not(:focus):not(:focus-within) {
   @include visually-hidden(); /* Inclui a mixin para ocultação visual */
 }
-=======
-//
-// Visually hidden
-//
-
-/* Define estilos para elementos visualmente ocultos */
-.visually-hidden,
-.visually-hidden-focusable:not(:focus):not(:focus-within) {
-  @include visually-hidden(); /* Inclui a mixin para ocultação visual */
-}
->>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07

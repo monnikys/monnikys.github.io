@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Texto truncado
 // Requer inline-block ou block para estilização adequada
 
@@ -7,13 +6,3 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-=======
-// Texto truncado
-// Requer inline-block ou block para estilização adequada
-
-@mixin text-truncate() {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
->>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07

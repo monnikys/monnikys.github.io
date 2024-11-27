@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700';
 
 html {
@@ -10,17 +9,4 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-=======
-@import 'https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700';
-
-html {
-    font-size: 100%;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
->>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07
 }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Configuração
 @import "functions"; // Importa funções necessárias
 @import "variables"; // Importa variáveis necessárias
@@ -10,16 +9,3 @@
 
 // Utilitários
 @import "utilities/api"; // Importa a API de utilitários para funcionalidades específicas
-=======
-// Configuração
-@import "functions"; // Importa funções necessárias
-@import "variables"; // Importa variáveis necessárias
-@import "mixins"; // Importa mixins para funcionalidades adicionais
-@import "utilities"; // Importa utilitários para estilos reutilizáveis
-
-// Auxiliares
-@import "helpers"; // Importa helpers para ajudar no desenvolvimento
-
-// Utilitários
-@import "utilities/api"; // Importa a API de utilitários para funcionalidades específicas
->>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07
