@@ -43,7 +43,7 @@ Página dedicada para que usuários possam fazer login e acessar áreas exclusiv
 ### 6. **Login Administrativo** (`loginad.html`)
 Área exclusiva para administradores, onde é possível gerenciar configurações e dados do GatoCaffeinato.
 
-![Página Login Administrativo](site/loginad.jpg)
+![Página Login Administrativo]()
 
 ### 7. **Serviços** (`service.jpg`)
 Detalhamento dos nossos serviços relacionados a café e gatos, incluindo informações sobre lojas, eventos e muito mais.
