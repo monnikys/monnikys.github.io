@@ -70,6 +70,10 @@ O sistema de gerenciamento de estoque do GatoCaffeinato está totalmente funcion
 
 ![Página de Estoque](site/stock.jpg)
 
+### 12. **Controle de Vendas** (`sales.html`)
+Aqui você encontra o sistema de controle de vendas, com a tabela que exibe as vendas realizadas, e os dashboards atualizados.
+
+![Controle de Vendas](site/sales.jpg)
 
 ---
 
