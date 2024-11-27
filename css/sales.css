@@ -4,12 +4,19 @@ body {
     font-family: 'Quicksand', sans-serif;
     background: #f1f0f0;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens no corpo */
+    justify-content: center;
 }
 
 table {
-    width: 100%;
+    width: 80%; /* Ajuste o tamanho da tabela */
+    max-width: 1000px; /* Tamanho máximo da tabela */
     border-collapse: collapse;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; /* Centraliza a tabela */
 }
 
 table, th, td {
@@ -33,28 +40,32 @@ h1 {
 }
 
 canvas {
-    max-width: 100%;
+    max-width: 100%; /* Corrige o valor da largura para 100% */
+    width: 100%;
     height: auto;
-    margin: 20px auto;
+    margin: 15px auto;
+    display: block; /* Garante que o canvas seja tratado como um bloco e fique centralizado */
 }
 
 .btn-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza os botões dentro do grupo */
 }
 
 .btn {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
-  #total-sales {
-        font-size: 20px;
-        font-weight: bold;
-        color: #ac0f0f;
-        background-color: #ffeecc;
-        padding: 10px;
-        border-radius: 5px;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    
+#total-sales {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ac0f0f;
+    background-color: #ffeecc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; /* Centraliza o elemento */
+}

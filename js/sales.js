@@ -1,18 +1,18 @@
 // Dados simulados de vendas
 let salesData = [
     { protocolo: 1, nome: "João", telefone: "123456789", endereco: "Rua A", bairro: "Centro", data_venda: "26/01/2024", tipo: "Sakura Blossom Blend", valorTotal: 50.00 },
-    { protocolo: 2, nome: "Maria", telefone: "987654321", endereco: "Rua B", bairro: "Bairro X", data_venda: "10/02/2024", tipo: "Matcha Misto", valorTotal: 30.00 },
+    { protocolo: 2, nome: "Maria", telefone: "987654321", endereco: "Rua B", bairro: "Bairro X", data_venda: "10/06/2024", tipo: "Matcha Misto", valorTotal: 30.00 },
     { protocolo: 3, nome: "Carlos", telefone: "123456789", endereco: "Rua C", bairro: "Bairro Y", data_venda: "15/01/2024", tipo: "Geisha Gold Reserve", valorTotal: 60.00 },
-    { protocolo: 4, nome: "Ana", telefone: "112233445", endereco: "Rua D", bairro: "Bairro Z", data_venda: "10/03/2024", tipo: "Hojicha Haze", valorTotal: 40.00 },
-    { protocolo: 5, nome: "Lucas", telefone: "223344556", endereco: "Rua E", bairro: "Centro", data_venda: "21/01/2024", tipo: "Sakura Blossom Blend", valorTotal: 55.00 },
+    { protocolo: 4, nome: "Ana", telefone: "112233445", endereco: "Rua D", bairro: "Bairro Z", data_venda: "10/09/2024", tipo: "Hojicha Haze", valorTotal: 40.00 },
+    { protocolo: 5, nome: "Lucas", telefone: "223344556", endereco: "Rua E", bairro: "Centro", data_venda: "21/08/2024", tipo: "Sakura Blossom Blend", valorTotal: 55.00 },
     { protocolo: 6, nome: "Patrícia", telefone: "334455667", endereco: "Rua F", bairro: "Bairro W", data_venda: "05/02/2024", tipo: "Yuzu Citrus Surprise", valorTotal: 75.00 },
     { protocolo: 7, nome: "Ricardo", telefone: "445566778", endereco: "Rua G", bairro: "Bairro V", data_venda: "12/03/2024", tipo: "Kabuki Kona Reserve", valorTotal: 90.00 },
-    { protocolo: 8, nome: "Fernanda", telefone: "556677889", endereco: "Rua H", bairro: "Bairro T", data_venda: "18/02/2024", tipo: "Umeboshi Café", valorTotal: 45.00 },
+    { protocolo: 8, nome: "Fernanda", telefone: "556677889", endereco: "Rua H", bairro: "Bairro T", data_venda: "18/12/2024", tipo: "Umeboshi Café", valorTotal: 45.00 },
     { protocolo: 9, nome: "Felipe", telefone: "667788990", endereco: "Rua I", bairro: "Centro", data_venda: "22/01/2024", tipo: "Rising Sun Roasters", valorTotal: 50.00 },
-    { protocolo: 10, nome: "Juliana", telefone: "778899001", endereco: "Rua J", bairro: "Bairro S", data_venda: "03/02/2024", tipo: "Nadeshiko Coffee", valorTotal: 35.00 },
-    { protocolo: 11, nome: "Gustavo", telefone: "889900112", endereco: "Rua K", bairro: "Bairro R", data_venda: "26/02/2024", tipo: "Kitsune Kafe", valorTotal: 80.00 },
+    { protocolo: 10, nome: "Juliana", telefone: "778899001", endereco: "Rua J", bairro: "Bairro S", data_venda: "03/11/2024", tipo: "Nadeshiko Coffee", valorTotal: 35.00 },
+    { protocolo: 11, nome: "Gustavo", telefone: "889900112", endereco: "Rua K", bairro: "Bairro R", data_venda: "26/10/2024", tipo: "Kitsune Kafe", valorTotal: 80.00 },
     { protocolo: 12, nome: "Juliana", telefone: "990011223", endereco: "Rua L", bairro: "Centro", data_venda: "04/03/2024", tipo: "Shizuku Coffee Roastery", valorTotal: 50.00 },
-    { protocolo: 13, nome: "Roberta", telefone: "101112131", endereco: "Rua M", bairro: "Bairro U", data_venda: "15/01/2024", tipo: "Tsuki no Kissa", valorTotal: 65.00 }
+    { protocolo: 13, nome: "Roberta", telefone: "101112131", endereco: "Rua M", bairro: "Bairro U", data_venda: "15/05/2024", tipo: "Tsuki no Kissa", valorTotal: 65.00 }
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
