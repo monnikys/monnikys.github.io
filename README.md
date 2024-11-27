@@ -35,27 +35,32 @@ Aqui você encontra formulários para se registrar, enviar feedback ou interagir
 
 ![Página Formulários](site/forms.jpg)
 
-### 5. **Login** (`login.jpg`)
+### 5. **Login** (`login.html`)
 Página dedicada para que usuários possam fazer login e acessar áreas exclusivas do GatoCaffeinato.
 
 ![Página Login](site/login.jpg)
 
-### 6. **Serviços** (`service.jpg`)
+### 6. **Login Administrativo** (`loginad.html`)
+Área exclusiva para administradores, onde é possível gerenciar configurações e dados do GatoCaffeinato.
+
+![Página Login Administrativo](site/loginad.jpg)
+
+### 7. **Serviços** (`service.jpg`)
 Detalhamento dos nossos serviços relacionados a café e gatos, incluindo informações sobre lojas, eventos e muito mais.
 
 ![Página Serviços](site/service.jpg)
 
-### 7. **Suporte** (`support.html`)
+### 8. **Suporte** (`support.html`)
 Precisa de ajuda? A página de suporte oferece respostas para perguntas frequentes e uma área para você encontrar mais informações.
 
 ![Página Suporte](site/support.jpg)
 
-### 8. **Termos e Condições** (`terms-and-conditions.jpg`)
+### 9. **Termos e Condições** (`terms-and-conditions.jpg`)
 Aqui você encontra os termos de uso do GatoCaffeinato, definindo as regras para navegação e utilização do nosso site.
 
 ![Página Termos e Condições](site/terms-and-conditions.jpg)
 
-### 9. **Página de Agradecimento** (`thanks.html`)
+### 10. **Página de Agradecimento** (`thanks.html`)
 Após completar algumas ações, como enviar formulários, você será direcionado para esta página de agradecimento.
 
 ![Página Agradecimento](site/thanks.jpg)
