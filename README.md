@@ -23,42 +23,42 @@ A página inicial é o ponto de partida para explorar o GatoCaffeinato. Aqui, vo
 ### 2. **Sobre** (`about.html`)
 Aqui você conhece mais sobre nós, nossa missão e como a ideia de unir gatos e café se tornou realidade.
 
-![Página Sobre](site/about.html)
+![Página Sobre](site/about.jpg)
 
-### 3. **Contato** (`contact.html`)
+### 3. **Contato** (`contact.jpg`)
 Tem alguma dúvida ou sugestão? A página de contato é onde você pode nos enviar suas mensagens diretamente.
 
-![Página Contato](site/contact.html)
+![Página Contato](site/contact.jpg)
 
-### 4. **Formulários** (`forms.html`)
+### 4. **Formulários** (`forms.jpg`)
 Aqui você encontra formulários para se registrar, enviar feedback ou interagir com nossa plataforma de maneira personalizada.
 
-![Página Formulários](site/forms.html)
+![Página Formulários](site/forms.jpg)
 
-### 5. **Login** (`login.html`)
+### 5. **Login** (`login.jpg`)
 Página dedicada para que usuários possam fazer login e acessar áreas exclusivas do GatoCaffeinato.
 
-![Página Login](site/login.html)
+![Página Login](site/login.jpg)
 
-### 6. **Serviços** (`service.html`)
+### 6. **Serviços** (`service.jpg`)
 Detalhamento dos nossos serviços relacionados a café e gatos, incluindo informações sobre lojas, eventos e muito mais.
 
-![Página Serviços](site/service.html)
+![Página Serviços](site/service.jpg)
 
 ### 7. **Suporte** (`support.html`)
 Precisa de ajuda? A página de suporte oferece respostas para perguntas frequentes e uma área para você encontrar mais informações.
 
-![Página Suporte](site/support.html)
+![Página Suporte](site/support.jpg)
 
-### 8. **Termos e Condições** (`terms-and-conditions.html`)
+### 8. **Termos e Condições** (`terms-and-conditions.jpg`)
 Aqui você encontra os termos de uso do GatoCaffeinato, definindo as regras para navegação e utilização do nosso site.
 
-![Página Termos e Condições](site/terms-and-conditions.html)
+![Página Termos e Condições](site/terms-and-conditions.jpg)
 
 ### 9. **Página de Agradecimento** (`thanks.html`)
 Após completar algumas ações, como enviar formulários, você será direcionado para esta página de agradecimento.
 
-![Página Agradecimento](site/thanks.html)
+![Página Agradecimento](site/thanks.jpg)
 
 ---
 
@@ -105,4 +105,3 @@ Este projeto está licenciado sob a Licença XYZ. Consulte o arquivo LICENSE par
 ## 🐱☕ Agradecemos pela sua visita!
 
 Fique à vontade para explorar o site e aguarde as novidades que estão por vir. GatoCaffeinato está sempre em evolução, assim como o nosso amor por gatos e café!
->>>>>>> e2e48ae066d633138949224403577e1e4c9dcd07
