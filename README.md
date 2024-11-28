@@ -15,65 +15,102 @@ Atualmente, estamos trabalhando nas seguintes funcionalidades:
 
 Abaixo estão as páginas principais do GatoCaffeinato. Cada uma tem uma descrição breve e você pode visualizar as capturas de tela de como cada uma é apresentada.
 
+# **GatoCaffeinato**
+
+O site **GatoCaffeinato** é um projeto que une duas paixões: **gatos** e **café**. Este README descreve as principais páginas do site e suas funcionalidades.
+
+---
+
 ### 1. **Página Inicial** (`index.html`)
-A página inicial é o ponto de partida para explorar o GatoCaffeinato. Aqui, você encontra uma visão geral do nosso site e pode navegar para outras seções.
+A página inicial apresenta a essência do GatoCaffeinato, com destaque para os nossos serviços e paixão por gatos e café.
 
 ![Página Inicial](site/index.jpg)
+
+---
 
 ### 2. **Sobre** (`about.html`)
 Aqui você conhece mais sobre nós, nossa missão e como a ideia de unir gatos e café se tornou realidade.
 
 ![Página Sobre](site/about.jpg)
 
-### 3. **Contato** (`contact.jpg`)
+---
+
+### 3. **Contato** (`contact.html`)
 Tem alguma dúvida ou sugestão? A página de contato é onde você pode nos enviar suas mensagens diretamente.
 
 ![Página Contato](site/contact.jpg)
 
-### 4. **Formulários** (`forms.jpg`)
+---
+
+### 4. **Formulários** (`forms.html`)
 Aqui você encontra formulários para se registrar, enviar feedback ou interagir com nossa plataforma de maneira personalizada.
 
 ![Página Formulários](site/forms.jpg)
+
+---
 
 ### 5. **Login** (`login.html`)
 Página dedicada para que usuários possam fazer login e acessar áreas exclusivas do GatoCaffeinato.
 
 ![Página Login](site/login.jpg)
 
+---
+
 ### 6. **Login Administrativo** (`loginad.html`)
 Área exclusiva para administradores, onde é possível gerenciar configurações e dados do GatoCaffeinato.
 
 ![Página Login Administrativo](site/loginad.jpg)
 
-### 7. **Serviços** (`service.jpg`)
+---
+
+### 7. **Administração** (`admin.html`)
+A página administrativa é onde os administradores podem acessar as funcionalidades de gerenciamento e controle do site.
+
+![Página Admin](site/admin.jpg)
+
+---
+
+### 8. **Serviços** (`service.html`)
 Detalhamento dos nossos serviços relacionados a café e gatos, incluindo informações sobre lojas, eventos e muito mais.
 
 ![Página Serviços](site/service.jpg)
 
-### 8. **Suporte** (`support.html`)
+---
+
+### 9. **Suporte** (`support.html`)
 Precisa de ajuda? A página de suporte oferece respostas para perguntas frequentes e uma área para você encontrar mais informações.
 
 ![Página Suporte](site/support.jpg)
 
-### 9. **Termos e Condições** (`terms-and-conditions.jpg`)
+---
+
+### 10. **Termos e Condições** (`terms-and-conditions.html`)
 Aqui você encontra os termos de uso do GatoCaffeinato, definindo as regras para navegação e utilização do nosso site.
 
 ![Página Termos e Condições](site/terms-and-conditions.jpg)
 
-### 10. **Página de Agradecimento** (`thanks.html`)
+---
+
+### 11. **Página de Agradecimento** (`thanks.html`)
 Após completar algumas ações, como enviar formulários, você será direcionado para esta página de agradecimento.
 
 ![Página Agradecimento](site/thanks.jpg)
 
-### 11. **Página de Estoque** (`stock.html`)
+---
+
+### 12. **Página de Estoque** (`stock.html`)
 O sistema de gerenciamento de estoque do GatoCaffeinato está totalmente funcional! Ele permite o controle e registro de produtos com facilidade, incluindo quantidades, preços e categorias, garantindo uma experiência organizada e eficiente para os administradores.
 
 ![Página de Estoque](site/stock.jpg)
 
-### 12. **Controle de Vendas** (`sales.html`)
+---
+
+### 13. **Controle de Vendas** (`sales.html`)
 Aqui você encontra o sistema de controle de vendas, com a tabela que exibe as vendas realizadas, e os dashboards atualizados.
 
 ![Controle de Vendas](site/sales.jpg)
+
+
 
 ---
 
