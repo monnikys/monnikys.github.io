@@ -216,4 +216,55 @@ background-color: #c82333; /* Vermelho mais escuro ao passar o mouse */
 .closebtn:hover {
     color: black;
 }
+/* Botões de atualizar*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
 
+header h1 {
+    margin: 0;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-group button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px; /* Reduz o preenchimento interno */
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* Garante que o tamanho seja automático */
+    max-width: 40px; /* Limita o tamanho máximo */
+    min-width: 40px; /* Define o tamanho mínimo */
+    height: 40px; /* Define uma altura fixa */
+}
+
+
+.btn-update {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-group button i {
+    margin-right: 5px;
+}

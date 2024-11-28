@@ -5,7 +5,7 @@ Bem-vindo ao **GatoCaffeinato**, um site temático que combina duas paixões: **
 ## 🚧 Em Construção
 
 Atualmente, estamos trabalhando nas seguintes funcionalidades:
-- Testes em andamento para as áreas de **admin** e **sales** (muito mais ideias que vierem).
+- Testes em andamento para as áreas de **admin**, **accounting**, **dash**, **precificacao** e **sales** (muito mais ideias que vierem).
 - Algumas páginas estão sendo ajustadas para integrar melhor ao nosso tema de café e gatos.
 - Logo mais, essas funcionalidades estarão totalmente integradas ao site!
 
@@ -105,7 +105,7 @@ Estilos em SCSS, uma forma mais organizada de escrever CSS, que será compilado 
 
 ## 💡 Próximos Passos
 
-- **Integração de Funcionalidades**: Continuaremos integrando funções administrativas como **admin** e **sales**.
+- **Integração de Funcionalidades**: Continuaremos integrando funções administrativas como **admin**, **accounting**, **dash**, **precificacao** e **sales**.
 - **Expansão do Conteúdo**: Novas seções e serviços estão sendo criados para enriquecer ainda mais a experiência de nossos visitantes.
 - **Testes e Ajustes Finais**: A página continuará em construção, e testaremos as funcionalidades de maneira contínua para garantir um site fluido e livre de erros.
 

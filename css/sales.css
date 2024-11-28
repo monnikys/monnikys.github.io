@@ -69,3 +69,39 @@ canvas {
     margin-left: auto;
     margin-right: auto; /* Centraliza o elemento */
 }
+
+header {
+    padding: 20px;
+    text-align: right;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top; /* Alinha os itens no topo */
+}
+
+.item a {
+    color: black; /* Define a cor do texto dos links como preto */
+    text-decoration: none; /* Remove a decoração do link */
+}
+
+.item img {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.item p {
+    margin: 5px 0 0;
+}

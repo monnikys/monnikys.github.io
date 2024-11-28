@@ -1,0 +1,112 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:400,700';
+
+/* (A) WHOLE PAGE */
+
+body {
+
+  display: flex;
+
+  padding: 0; margin: 0;
+
+  min-height: 100vh;
+
+  background: linear-gradient(to right, #000000, rgb(177, 24, 24));
+}
+
+#sideC { display: none; }
+
+
+
+/* (B) BIG SCREEN : 2-COLUMN LAYOUT */
+
+#side { width: 150px; }
+
+#main { flex-grow: 1; }
+
+#sideL { display: none; }
+
+
+
+/* (C) SMALL SCREEN */
+
+@media screen and (max-width: 200px) {
+
+  /* (C1) HIDDEN SIDEBAR */
+
+  #side {
+
+    width: 0; visibility: hidden; opacity: 1;
+
+    transition: all 0.2s;
+
+  }
+
+
+
+  /* (C2) SHOW SIDEBAR WHEN CHECKED */
+
+  #sideL { display: inline-block; }
+
+  #sideC:checked ~ #side {
+
+   height: 100%; width: 200px; visibility: visible; opacity: 1;
+
+  }
+
+}
+
+
+
+/* (X) COSMETICS */
+
+/* (X1) WHOLE PAGE */
+
+* {
+
+  font-family: 'Quicksand', sans-serif;
+
+  box-sizing: border-box;
+
+}
+
+
+
+/* (X2) SIDEBAR */
+
+#side {
+
+  color: black;
+
+  background: rgba(255, 255, 255, 0.8);
+
+  border-radius: 5px;
+}
+
+#side a {
+
+  display: block;
+
+  width: 100%;
+
+  padding: 10px 5px;
+
+}
+
+
+
+/* (X3) MAIN */
+
+#sideL {
+
+  padding: 20px;
+
+  font-size: 24px;
+
+  color: whitesmoke; background: gray;
+
+  cursor: pointer;
+
+  border-radius: 60px;
+}
+
+#main { padding: 10px; }
